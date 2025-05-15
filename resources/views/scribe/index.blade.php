@@ -26,7 +26,7 @@
             </style>
 
     <script>
-        var tryItOutBaseUrl = "http://api-organiz.my.id";
+        var tryItOutBaseUrl = "https://api-organiz.my.id";
         var useCsrf = Boolean();
         var csrfUrl = "/sanctum/csrf-cookie";
     </script>
@@ -116,7 +116,7 @@
     <div class="content">
         <h1 id="introduction">Introduction</h1>
 <aside>
-    <strong>Base URL</strong>: <code>http://api-organiz.my.id</code>
+    <strong>Base URL</strong>: <code>https://api-organiz.my.id</code>
 </aside>
 <pre><code>This documentation aims to provide all the information you need to work with our API.
 
@@ -143,14 +143,14 @@ You can switch the language used with the tabs at the top right (or from the nav
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://api-organiz.my.id/api/user" \
+    --get "https://api-organiz.my.id/api/user" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://api-organiz.my.id/api/user"
+    "https://api-organiz.my.id/api/user"
 );
 
 const headers = {
@@ -271,14 +271,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://api-organiz.my.id/api/tasks" \
+    --get "https://api-organiz.my.id/api/tasks" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://api-organiz.my.id/api/tasks"
+    "https://api-organiz.my.id/api/tasks"
 );
 
 const headers = {
@@ -578,7 +578,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://api-organiz.my.id/api/tasks" \
+    "https://api-organiz.my.id/api/tasks" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -590,7 +590,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://api-organiz.my.id/api/tasks"
+    "https://api-organiz.my.id/api/tasks"
 );
 
 const headers = {
@@ -720,14 +720,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://api-organiz.my.id/api/tasks/3" \
+    --get "https://api-organiz.my.id/api/tasks/3" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://api-organiz.my.id/api/tasks/3"
+    "https://api-organiz.my.id/api/tasks/3"
 );
 
 const headers = {
@@ -860,7 +860,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://api-organiz.my.id/api/tasks/3" \
+    "https://api-organiz.my.id/api/tasks/3" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -872,7 +872,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://api-organiz.my.id/api/tasks/3"
+    "https://api-organiz.my.id/api/tasks/3"
 );
 
 const headers = {
@@ -1018,14 +1018,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://api-organiz.my.id/api/tasks/3" \
+    "https://api-organiz.my.id/api/tasks/3" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://api-organiz.my.id/api/tasks/3"
+    "https://api-organiz.my.id/api/tasks/3"
 );
 
 const headers = {

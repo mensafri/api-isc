@@ -3,7 +3,7 @@
 
 
 <aside>
-    <strong>Base URL</strong>: <code>http://api-organiz.my.id</code>
+    <strong>Base URL</strong>: <code>https://api-organiz.my.id</code>
 </aside>
 
     This documentation aims to provide all the information you need to work with our API.
